@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print-to-console
-        run: eecho Hello form  my first flow !
+        run: echo Hello form  my first flow !
       
     
   
