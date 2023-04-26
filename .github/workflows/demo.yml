@@ -1,0 +1,11 @@
+name: Demo Workflow
+on: [workflow_dispatch]
+jobs:
+  print: 
+    runs-on: ubhuntu-latest
+    steps:
+      - name: print-to-console
+        run: eecho Hello form  my first flow !
+      
+    
+  
